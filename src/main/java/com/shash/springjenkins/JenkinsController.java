@@ -10,6 +10,6 @@ public class JenkinsController {
 
     @GetMapping("/wish")
     public String wish(){
-        return "wish";
+        return "wish amulya";
     }
 }
