@@ -1,6 +1,5 @@
 package com.shash.springjenkins;
 
-
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/test")
 public class JenkinsController {
 
-    @GetMapping("/hello")
+    @GetMapping("/wish")
     public String wish(){
         return "wish";
     }
